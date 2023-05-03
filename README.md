@@ -12,7 +12,8 @@ top_tml_shc(L,h,t,z,Vf,rmin,pE,pk,pb)
 
 where the variables refer to the corresponding parameters discussed in the paper. 
 
-For example, the optimization with the default parameters can be solved by entering the following command: 
+For example, the optimization with the default parameters can be solved by entering the following command:
+
 top_tml_shc(1200,400,10,10,0.4,3,3,3,3)
 
 
