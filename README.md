@@ -1,5 +1,5 @@
 # Thermoelastic topology optimization code for 2D problems in Matlab
-This repository contains Matlab files for thermoelastic topology optimization considering steady-state and transient heat conduction
+This repository contains Matlab files for thermoelastic topology optimization considering steady-state and transient heat conduction.
 
 
 The file top_tml_shc.m solves a topology optimization problem for a simply-supported beam subjected to a mechanical point load on the top and a thermal boundary condition at the bottom edge. More information about the theory and implementation can be found in:
@@ -18,4 +18,3 @@ top_tml_shc(1200,400,10,10,0.4,3,3,3,3)
 
 
 The MATLAB files mmasub.m and subsolv.m for using the MMA algorithm are freely available on http://www.smoptit.se/ under the GNU General Public License (GPLv3). One should reference them correctly in line 3 of the MATLAB code to carry out the optimization procedure.
-
