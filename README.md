@@ -16,5 +16,6 @@ For example, the optimization with the default parameters can be solved by enter
 
 top_tml_shc(1200,400,10,10,0.4,3,3,3,3)
 
+A modification of the original top_tml_shc.m code is made for design-independent thermal loads such as a uniform temperature difference. The code top_tml_uniform.m is added to this repository and can be used in a similar manner as described above.
 
 The MATLAB files mmasub.m and subsolv.m for using the MMA algorithm are freely available on http://www.smoptit.se/ under the GNU General Public License (GPLv3). One should reference them correctly in line 3 of the MATLAB code to carry out the optimization procedure.
